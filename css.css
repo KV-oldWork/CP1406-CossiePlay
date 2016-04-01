@@ -1,0 +1,239 @@
+//css
+
+h1 {
+    color:  #66b5ff;
+    font-family: "Arial";
+    background-color: white;
+}
+
+html, body{
+    height:100%;
+}
+
+body {
+   margin-right: 400px;
+   margin-left: 400px;
+   font-family: "Arial";
+   background-color: #b3d9ff;
+}
+
+h2 {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: 100%;
+}
+
+footer {
+    background-color: white;
+    color: #3399ff; 
+    font-size: 15px;
+}
+
+h3 {
+    font-size:40px;
+}
+
+hr {
+    border: none;
+    height: 4px;
+    color: black; 
+    background-color: black; 
+}
+
+#boxa {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:300px;
+   float: left;
+    padding:5px; 
+   
+}
+
+button {
+    background-color: white;
+    border: dashed;
+    padding: 1px 32px;
+    font-size: 40px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e6f2ff;
+    border: dashed;
+}
+   
+a {
+    color: #3399ff; 
+    text-decoration: none; 
+    decoration: none;
+}
+
+a:visited {
+    color: #3399ff;
+    text-decoration: none; 
+    decoration: none;
+}
+
+a:active {
+    text-decoration: none; 
+    decoration: none;
+}
+
+a:hover {
+    color: #0066cc;
+    font-family: "Arial";
+}
+
+#t01, th, td {
+    border: 2px solid white;
+    border-collapse: collapse;   
+}
+
+#t01 th, td {
+    padding: 15px;
+    text-align:left;
+}
+
+#t01 td{
+    background-color:rgba(0, 0, 0, 0);
+    font-size: 110%;
+    color:#6699ff;
+}
+
+#t01 th{
+    background-color:rgba(102, 153, 255, 0.6);
+    color:white;
+}
+
+#t01 {
+    width: 900px;
+}
+
+#tablewrap {
+    width:900px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9) ), url("bookFair.jpg");
+    background-size:cover;
+    
+}
+
+#partyguidelines {
+    border: 2px solid black;
+    width: 500px;
+    height: auto;
+    padding: 10px;
+    background-color:white;
+    font-size: 20px;
+    color:#3399ff;
+    text-align: left;
+    float:left;
+    margin-right: 20px;
+    margin-left: 70px;
+    line-height: 125%;
+    
+}
+
+#partycost {
+    border: 2px solid black;
+    width: 400px;
+    height: auto;
+    padding: 10px;
+    background-color:white;
+    font-size: 20px;
+    color:#3399ff;
+    text-align: left;
+    float: left;
+    line-height: 125%;
+    margin-bottom: 20px;
+}
+
+#CosplayInfo {
+    border: 2px solid black;
+    width: 500px;
+    height: auto;
+    padding: 10px;
+    background-color:white;
+    font-size: 20px;
+    color:#3399ff;
+    text-align: left;
+    float: left;
+    line-height: 125%;
+    margin-bottom: 20px;
+}
+
+#linkinfo {
+    border: 2px solid black;
+    width: 285px;
+    height:auto;
+    background-color: white;
+    font-size: 20px;
+    color: #3399ff;
+    text-align: left;
+    float:left;
+    line-height: 125%;
+    padding: 10px;
+    
+}
+
+#imgboxA {
+    width: 250px;
+    height: auto;
+    color:#3399ff;
+    text-align: left;
+    float: left;
+    margin-left: 20px;
+    line-height: 125%;
+}
+
+#sighnup {
+    border: 2px solid black;
+    width: 600px;
+    height:auto;
+    background-color: white;
+    font-size: 20px;
+    color: #3399ff;
+    text-align: left;
+    float:left;
+    line-height: 125%;
+    padding: 5px;
+}
+
+#t02 {
+    font-size: 20px;
+}
+
+input[type=submit] {
+    padding: 10px;
+    color: #6699ff;
+    background-color: #f2f2f2;
+    border: 2px solid black;
+    font-size: 15px;
+    font-weight: 400;
+    
+}
+
+input[type=submit]:hover {
+    Transition: 0.3s;
+    border-radius: 10px;
+    background-color: #6699ff;
+    color: #f2f2f2;
+}
+
+#announcements {
+    border: 2px solid black;
+    width: 435px;
+    height:auto;
+    background-color: white;
+    font-size: 20px;
+    color: #3399ff;
+    text-align: left;
+    float:left;
+    margin-left: 20px;
+    line-height: 125%;
+    padding: 10px;
+}
